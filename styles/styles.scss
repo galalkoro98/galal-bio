@@ -74,6 +74,10 @@ section{
     background-color: var(--color-primary);
 }
 
+.sec0{
+    display: none;
+    transform: translateY(0) scale(1);
+}
 .sec1{
     display: none;
     transform: translateY(0) scale(1);
@@ -336,22 +340,22 @@ section{
                     }
 
                     .html{
-                        width: 80%;
+                        width: 50%;
                     }
                     .css{
-                        width: 95%;
+                        width: 48%;
                     }
                     .js{
-                        width: 75%;
+                        width: 40%;
                     }
-                    .react{
-                        width: 60%;
+                    .vscode{
+                        width: 77%;
                     }
-                    .node{
-                        width: 87%;
+                    .php{
+                        width: 30%;
                     }
                     .python{
-                        width: 70%;
+                        width: 10%;
                     }
                 }
             }
@@ -735,3 +739,4 @@ section{
 }
 
 @import './media';
+@import './photoes'
